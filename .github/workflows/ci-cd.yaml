@@ -13,6 +13,7 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ifyagu/calculator-app
 
+#for code scanning codeql when repo was private 
 permissions:
   actions: read
   contents: read
