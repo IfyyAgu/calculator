@@ -13,6 +13,11 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ifyagu/calculator-app
 
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
 
 jobs:
 
